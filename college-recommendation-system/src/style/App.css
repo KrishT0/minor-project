@@ -1,0 +1,159 @@
+html {
+     margin: 0;
+     padding: 0;
+     font-family: 'Roboto Slab', serif;
+     background: yellowgreen;
+}
+
+body {
+     margin: 0 auto;
+     padding: 0;
+     max-width: 1250px;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+     /* background: white; */
+}
+
+h1,
+h2,
+h3 {
+     margin: 0;
+     padding: 0;
+}
+
+.flex {
+     display: flex;
+}
+
+
+/* Navbar */
+.navbar {
+     margin-top: 1rem;
+     padding: 0.5rem;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 1.5rem;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 5px 9px;
+}
+
+.left-navbar {
+     width: 3rem;
+     border-radius: 50%;
+     border: 2px solid grey;
+}
+
+/* .right-navbar {
+     display: none;
+} */
+
+.butt {
+     margin-right: 0.55rem;
+     padding: 0.5rem;
+     background: black;
+     color: yellowgreen;
+     font-size: large;
+     font-weight: bold;
+     border-radius: 1.5rem;
+}
+
+.butt:hover {
+     background: greenyellow;
+     color: black;
+     cursor: pointer;
+     transition: 1s;
+}
+
+
+/* Heroes */
+
+.heroes {
+     margin-top: 2rem;
+     padding: 0.5rem;
+     justify-content: space-between;
+}
+
+.photo-left {
+     max-width: 50%;
+     height: auto;
+     border-radius: 3rem;
+
+}
+
+.text-right {
+     width: 40%;
+     align-items: center;
+     justify-content: center;
+}
+
+
+/* Client Data */
+
+.client {
+     margin-top: 2rem;
+     padding: 0.5rem;
+     justify-content: space-between;
+}
+
+.data {
+     /* border: 1px solid black; */
+     width: 20%;
+     height: 8rem;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+
+/* Search bar */
+
+.search {
+     margin-top: 3rem;
+     padding: 2rem;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 1rem;
+}
+
+.marks {
+     gap: 2rem;
+}
+
+.bar {
+     min-width: 20%;
+     padding: 0.5rem;
+     border-radius: 1rem;
+     background: white;
+     border: 3px solid grey;
+}
+
+.field {
+     gap: 2rem;
+}
+
+.search button {
+     background-color: white;
+     padding: 0.3rem;
+     width: 5rem;
+     height: 2.5rem;
+     border-radius: 1rem;
+     font-weight: bold;
+     background: black;
+     color: yellowgreen;
+     border: 3px solid grey;
+}
+
+.search button:hover {
+     cursor: pointer;
+
+}
+
+/* Footer */
+.footer {
+     height: 5vh;
+     border-radius: 1.5rem;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 5px 9px;
+     align-items: center;
+     justify-content: center;
+}
