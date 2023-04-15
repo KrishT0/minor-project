@@ -8,26 +8,26 @@ import './style/App.css'
 
 function App() {
   const { isAuthenticated } = useAuth0();
-  if (isAuthenticated) {
-    return (
-      <div className="App">
-        <Navbar />
-        <Heroes />
-        <ClientData />
-        <CollegeSearch />
-        <Footer />
-      </div>
-    )
-  }
-  else {
-    return (
-      <div className="App">
-        <Navbar />
-        <Heroes />
-        <ClientData />
-        <Footer />
-      </div>
-    )
-  }
+  // if (isAuthenticated) {
+  return (
+    <div className="App">
+      <Navbar />
+      <Heroes />
+      <ClientData />
+      <CollegeSearch />
+      <Footer />
+    </div>
+  )
+  // }
+  // else {
+  //   return (
+  //     <div className="App">
+  //       <Navbar />
+  //       <Heroes />
+  //       <ClientData />
+  //       <Footer />
+  //     </div>
+  //   )
+  // }
 }
 export default App
