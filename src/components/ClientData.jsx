@@ -1,3 +1,6 @@
+import VisitCounter from "./VisitCounter";
+
+
 export default function Client() {
      return (
           <div className="client ">
@@ -15,7 +18,7 @@ export default function Client() {
                </div>
                <div className=" data d4 flex">
                     <h2>Site Visit</h2>
-                    <h2>0</h2>
+                    <h2><VisitCounter /></h2>
                </div>
           </div>
      );
