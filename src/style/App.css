@@ -2,7 +2,8 @@ html {
      margin: 0;
      padding: 0;
      font-family: 'Roboto Slab', serif;
-     background: #9acd32;
+     background: #A29F15;
+     color: #093c5d;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
      max-width: 1250px;
      box-sizing: border-box;
      scroll-behavior: smooth;
-     /* background: white; */
+     background: #C2BBF0;
 }
 
 h1,
@@ -28,12 +29,13 @@ h3 {
 
 /* Navbar */
 .navbar {
-     margin-top: 1rem;
+     margin-top: 0.1rem;
      padding: 0.5rem;
      justify-content: space-between;
      align-items: center;
-     border-radius: 1.5rem;
+     border-radius: 0.5rem;
      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 5px 9px;
+     background-color: #C2BBF0;
 }
 
 .left-navbar {
@@ -49,16 +51,16 @@ h3 {
 .butt {
      margin-right: 0.55rem;
      padding: 0.5rem;
-     background: black;
-     color: yellowgreen;
+     background: #8A0538;
+     color: white;
      font-size: large;
-     font-weight: bold;
-     border-radius: 1.5rem;
+     font-weight: 500;
+     border-radius: 1rem;
      border: 3px solid grey;
 }
 
 .butt:hover {
-     background: greenyellow;
+     background: burlywood;
      color: black;
      cursor: pointer;
      transition: 1s;
@@ -69,14 +71,18 @@ h3 {
 
 .heroes {
      margin-top: 2rem;
-     padding: 0.5rem;
+     padding: 0.8rem;
      justify-content: space-between;
+     /* background-color: white; */
+     border-radius: 0.3rem;
+     /* color: #e67e22; */
+
 }
 
 .photo-left {
      max-width: 50%;
      height: auto;
-     border-radius: 3rem;
+     border-radius: 0.5rem;
      object-fit: cover;
 
 }
@@ -85,6 +91,7 @@ h3 {
      width: 40%;
      align-items: center;
      justify-content: center;
+     font-family: 'Manrope', sans-serif;
 }
 
 
@@ -112,6 +119,7 @@ h3 {
      justify-content: center;
      display: grid;
      grid-template-areas: "a b c d";
+     font-family: 'Manrope', sans-serif;
 }
 
 
@@ -123,6 +131,7 @@ h3 {
      justify-content: center;
      align-items: center;
      flex-direction: column;
+     /* color: #e67e22; */
 }
 
 
@@ -135,6 +144,8 @@ h3 {
      justify-content: center;
      flex-direction: column;
      gap: 1rem;
+     font-family: 'Manrope', sans-serif;
+
 }
 
 .marks {
@@ -154,14 +165,13 @@ h3 {
 }
 
 .search button {
-     background-color: white;
      padding: 0.3rem;
      width: 6rem;
      height: 3rem;
-     border-radius: 1rem;
+     border-radius: 0.9rem;
      font-weight: bold;
-     background: black;
-     color: yellowgreen;
+     background: #8A0538;
+     color: white;
      border: 3px solid grey;
 }
 
@@ -177,16 +187,21 @@ h3 {
 
 .search button:hover {
      cursor: pointer;
+     background: burlywood;
+     color: black;
+     transition: 1s;
 
 }
 
 /* Footer */
 .footer {
-     height: 8vh;
-     border-radius: 1.5rem;
+     height: 6vh;
+     border-radius: 0.5rem;
      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 5px 9px;
      align-items: center;
      justify-content: center;
+     font-family: 'Manrope', sans-serif;
+     background-color: #ada5de;
 }
 
 @media (max-width:400px) {
