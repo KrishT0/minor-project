@@ -153,7 +153,7 @@ h3 {
 }
 
 .bar {
-     min-width: 20%;
+     max-width: 25%;
      padding: 0.5rem;
      border-radius: 1rem;
      background: white;
